@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <script src="https://kit.fontawesome.com/77508f7c50.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Exercici Rating - IT ACADEMY</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="s3"></div>
+                <div class="s6">
+                    <h1>Fases a seguir</h1>
+                <ul>
+                    <li>1. Mostrar a pantalla 5 estrelles (o l'icona que més us agradi) centrades i amb un color assignat</li>
+                        <i class="fas fa-bug ex1"></i>
+                        <i class="fas fa-bug ex1"></i>
+                        <i class="fas fa-bug ex1"></i>
+                        <i class="fas fa-bug ex1"></i>
+                        <i class="fas fa-bug ex1"></i>
+                    <li>2. Que el color de l'estrella canvii si el mouse es posa sobra una d'elles.</li>
+                        <i class="fas fa-bug ex2"></i>
+                        <i class="fas fa-bug ex2"></i>
+                        <i class="fas fa-bug ex2"></i>
+                        <i class="fas fa-bug ex2"></i>
+                        <i class="fas fa-bug ex2"></i>
+                    <li>3. Al moure el mouse sobre un element, que canvii els colors a tots els seus anteriors. Si per exemple
+                        es posa el mouse a la tercera estrella, s'han de canviar de color de la 1 a la 3.</li>
+                        <div class="reverse">
+                            <i class="fas fa-bug ex3"></i>
+                            <i class="fas fa-bug ex3"></i>
+                            <i class="fas fa-bug ex3"></i>
+                            <i class="fas fa-bug ex3"></i>
+                            <i class="fas fa-bug ex3"></i>
+                        </div>
+                    <li>4. Al premer una estrella, s'han de quedar els colors fixes a aquesta i a totes les anteriors.</li>
+                        
+                    <div class="reverse">
+                        <input id="bug1" type="radio" name="" value="">
+                        <label for="bug1" title="">
+                                <i class="active fas fa-bug"></i>
+                        </label>
+                        <input id="bug2" type="radio" name="rating" value="star-4">
+                        <label for="bug2" title="">
+                                <i class="active fas fa-bug"></i>
+                        </label>
+                        <input id="bug3" type="radio" name="rating" value="star-3">
+                        <label for="bug3" title="">
+                                <i class="active fas fa-bug"></i>
+                        </label>
+                        <input id="bug4" type="radio" name="rating" value="star-2">
+                        <label for="bug4" title="">
+                                <i class="active fas fa-bug"></i>
+                        </label>
+                        <input id="bug5" type="radio" name="rating" value="star-1">
+                        <label for="bug5" title="">
+                                <i class="active fas fa-bug"></i>
+                        </label>
+                    </div>
+                        
+                    <li>5. Si es prem a una altra estrella, els colors s'han d'actualitzar correctament. A més, si l'usuari prem fora de la zona
+                        de les estrelles, s'han de desel·leccionar totes.</li>
+
+                </ul>
+                </div>
+                <div class="s3"></div>
+                    <i class="fas fa-bug ex5" onmousedown="pintar();"></i>
+                    <i class="fas fa-bug ex5"></i>
+                    <i class="fas fa-bug ex5"></i>
+                    <i class="fas fa-bug ex5"></i>
+                    <i class="fas fa-bug ex5"></i>
+                </div>
+        </div> 
+        
+    <script src="main.js" language="javascript" type="text/javascript"></script>    
+    </body>
+</html>

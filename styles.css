@@ -1,0 +1,35 @@
+.ex1, .ex2, .ex3, .ex5{
+    color: #708090;
+    font-size: 90px;
+    padding: 15px 15px
+}
+.ex2:hover, .ex3:hover{
+    cursor:pointer;
+    color:#20B2AA;
+}
+/* rtl indica que es llegeix al revés. Right to left. */
+.reverse{
+    direction: rtl;
+    display: inline-block
+}
+/*Totes les etiquetes .ex3 precedides per la clase .ex3 que tingui el ratolí a sobre(:hover)
+faran el que es demani, en aquest cas canvi de color. Com que hi ha l'ordre anterior(reverse), 
+enlloc de les precedides, seràn les anteriors. */
+.ex3:hover ~ .ex3{
+    cursor:pointer;
+    color: #20B2AA;
+}
+.reverse label{
+    color: #708090; 
+    font-size: 90px;
+    padding: 15px 15px
+}
+input[type=radio] {
+    display: none
+}
+.reverse label:hover,
+.reverse label:hover ~ label,
+.reverse input[type=radio]:checked ~ label {
+    cursor:pointer;
+    color: #20B2AA
+}
