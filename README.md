@@ -1,3 +1,3 @@
 RATING WITH JAVASCRIPT
 
-Project with Javascript and CSS to practice animations. | IT ACADEMY
+Javascript and CSS project to practice animations. | IT ACADEMY
