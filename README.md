@@ -7,4 +7,4 @@ ______________________________________________
 https://vantello.github.io/javascript-rating/
 ______________________________________________
 
-Hope you like it!
+Hope you enjoy it!
